@@ -1,30 +1,24 @@
-# Cybersecurity Home Lab - Halil Ibrahim Yilmaz
+# Cybersecurity Home Lab
 
-SOC Analyst pozisyonlarina yonelik hands-on lab calismalari.
+I come from a mechanical engineering background and I'm transitioning into cybersecurity with a focus on SOC operations. This lab is how I'm building practical experience — reading about tools is one thing, actually working with alerts and traffic is another.
 
-## Lab Ortami
+The setup uses Security Onion and Kali Linux. I work through the alerts, map findings to MITRE ATT&CK, and document everything here.
 
-| Bilesen      | Detay                       |
-|--------------|-----------------------------|
-| Hypervisor   | VirtualBox 7.0              |
-| Host OS      | Windows 11, 16GB RAM        |
-| SIEM / IDS   | Security Onion 2.3          |
-| Saldiri mak. | Kali Linux 2024.1           |
-| Hedef mak.   | Windows Server 2022, Ubuntu |
+Full setup documentation: [setup/lab-setup.md](setup/lab-setup.md)
 
-## Projeler
+## Environment
 
-| #  | Proje               | Araclar                        | MITRE |
-|----|---------------------|--------------------------------|-------|
-| 01 | Nmap Tarama Tespiti | Security Onion, Suricata, Zeek | T1046 |
+| Component | Details |
+|---|---|
+| Hypervisor | VirtualBox 7.2.4 |
+| Security Onion | 2.4.211 |
+| Attack machine | Kali Linux |
 
-## Sertifikalar
+## Projects
 
-- Cisco CCNA Cybersecurity - 2026
-- CyberOps Associate - Cisco - 2025
-- CCNA: Introduction to Networks - 2025
-
-## Iletisim
-
-- LinkedIn: linkedin.com/in/halilibrahimyilmaz
-- Medium: medium.com/@hibrahimyilmazz
+| # | Project | Tools | Status |
+|---|---|---|---|
+| 01 | Nmap Scan Detection & Triage | Security Onion, Suricata, Zeek | Done |
+| 02 | PCAP Analysis & Malware Traffic | Wireshark, Security Onion | Planned |
+| 03 | Incident Response Scenario | Security Onion | Planned |
+| 04 | Custom Snort/Suricata Rule Writing | Suricata | Planned |
