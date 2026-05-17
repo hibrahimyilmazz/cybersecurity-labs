@@ -19,6 +19,3 @@ Full setup documentation: [setup/lab-setup.md](setup/lab-setup.md)
 | # | Project | Tools | Status |
 |---|---|---|---|
 | 01 | Nmap Scan Detection & Triage | Security Onion, Suricata, Zeek | Done |
-| 02 | PCAP Analysis & Malware Traffic | Wireshark, Security Onion | Planned |
-| 03 | Incident Response Scenario | Security Onion | Planned |
-| 04 | Custom Snort/Suricata Rule Writing | Suricata | Planned |
