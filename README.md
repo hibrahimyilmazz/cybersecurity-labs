@@ -1,21 +1,15 @@
-# Cybersecurity Home Lab
+# Cybersecurity Home Lab — Halil Ibrahim Yilmaz
 
-I come from a mechanical engineering background and I'm transitioning into cybersecurity with a focus on SOC operations. This lab is how I'm building practical experience — reading about tools is one thing, actually working with alerts and traffic is another.
+Mechanical engineer transitioning into cybersecurity, focused on 
+SOC operations and blue team skills.
 
-The setup uses Security Onion and Kali Linux. I work through the alerts, map findings to MITRE ATT&CK, and document everything here.
-
-Full setup documentation: [setup/lab-setup.md](setup/lab-setup.md)
-
-## Environment
-
-| Component | Details |
-|---|---|
-| Hypervisor | VirtualBox 7.2.4 |
-| Security Onion | 2.4.211 |
-| Attack machine | Kali Linux |
+This repo documents my hands-on work as I build practical experience 
+in threat detection, alert triage, log analysis, and incident 
+investigation. Each project is a real scenario I worked through — 
+not a tutorial follow-along.
 
 ## Projects
 
-| # | Project | Tools | Status |
-|---|---|---|---|
-| 01 | Nmap Scan Detection & Triage | Security Onion, Suricata, Zeek | Done |
+| # | Project | Focus | Status |
+|---|---------|-------|--------|
+| 01 | [Nmap Scan Detection & Triage](./01-nmap-detection/) | Network recon detection, alert triage, Suricata rule analysis | Done |
