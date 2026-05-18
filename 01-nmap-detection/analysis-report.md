@@ -142,7 +142,7 @@ sudo nmap -sS --scan-delay 1s 192.168.100.30
 
 The scan completed in 1003 seconds compared to a few seconds for the standard scan. The results were significantly different.
 
-![Slow Scan Alerts](screenshots/slow-scan/01-slow-scan-during.png)
+![Slow Scan Alerts](screenshots/slow-scan/03-slow-scan-after.png)
 
 | | Standard scan | Slow scan (1s delay) |
 |---|---|---|
