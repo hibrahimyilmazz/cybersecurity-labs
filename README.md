@@ -5,7 +5,7 @@ SOC operations and blue team skills.
 
 This repo documents my hands-on work as I build practical experience 
 in threat detection, alert triage, log analysis, and incident 
-investigation. Each project is a real scenario I worked through — 
+investigation. Each project is a real scenario I worked through 
 not a tutorial follow-along.
 
 ## Projects
