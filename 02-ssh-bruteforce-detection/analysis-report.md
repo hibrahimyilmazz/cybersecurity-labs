@@ -282,12 +282,14 @@ This showed me that detection logic should focus on behavior, not just specific 
 
 ## MITRE ATT&CK Mapping
 
-| Technique | ID | Description |
+| Technique | ID | Why It Applies |
 |---|---|---|
-| Brute Force | T1110 | Repeated password attempts against one user |
-| Password Guessing | T1110.001 | Password list used with Medusa |
-| Valid Accounts | T1078 | Successful login after the correct password was found |
-| Remote Services: SSH | T1021.004 | Access attempt over SSH |
+| Brute Force | T1110 | Multiple SSH authentication attempts were made against the same user account. |
+| Password Guessing | T1110.001 | Medusa used a small password list to guess the password for `msfadmin`. |
+| Valid Accounts | T1078 | The valid credential `msfadmin:msfadmin` was found and used for a successful login. |
+| Remote Services: SSH | T1021.004 | The login attempts and successful authentication occurred over SSH. |
+
+
 
 ---
 
